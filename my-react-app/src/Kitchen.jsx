@@ -1,151 +1,42 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import React from 'react'
+import PhotoGallery from 'react-photo-gallery'
+import { kitchenphotos } from './components/Photos'
 
-import Kitchen1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen1.webp'
-import Kitchen2 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen2.webp'
-import Kitchen3 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen3.webp'
-import Kitchen4 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen4.webp'
-import Kitchen5 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen5.webp'
-import Kitchen6 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen6.webp'
-import Kitchen7 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen7.webp'
-import Kitchen8 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen8.webp'
-import Kitchen9 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen9.webp'
-import Kitchen10 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen10.webp'
-import Kitchen11 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen11.webp'
-import Kitchen12 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen12.webp'
+const Kitchen = () => {
+  return (
+    <div className="hero relative mx-auto mb-20 max-w-screen-xl py-8 px-4  text-center lg:py-16 lg:px-12">
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl ">
+        {' '}
+        Our Kitchen Designs
+      </h1>
 
-
-
-
-const products = [
-    {
-      id: 1,
-      imageSrc:Kitchen1,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 2,
-      imageSrc: Kitchen2,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 3,
-      imageSrc: Kitchen3,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 4,
-      imageSrc: Kitchen4,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 5,
-      imageSrc: Kitchen5,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 6,
-      imageSrc: Kitchen6,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 7,
-      imageSrc: Kitchen7,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 8,
-      imageSrc: Kitchen8,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 9,
-      imageSrc: Kitchen9,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 10,
-      imageSrc: Kitchen10,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 11,
-      imageSrc: Kitchen11,
-      imageAlt: 'kitchen photo',
-      
-    },
-    {
-      id: 12,
-      imageSrc: Kitchen12,
-      imageAlt: 'kitchen photo',
-      
-    },
-    // More products...
-  ]
-
-  
-  export default function Kitchen() {
-    return (
-<>
-    
-
-
-
-
-      <div className="bg-[#161719]">
-        <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-[#D2B48c]">Our Kitchen Designs</h2>
-  
-          <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-            {products.map((product) => (
-              <div key={product.id} className="group relative">
-                <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                  <img
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                  />
-                </div>
-                <div className="mt-4 flex justify-between">
-                  <div>
-                    <h3 className="text-sm text-gray-700">
-                      <a href={product.href}>
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {product.name}
-                      </a>
-                    </h3>
-                    <p className="mt-1 text-sm text-gray-500">{product.color}</p>
-                  </div>
-                  <p className="text-sm font-medium text-gray-900">{product.price}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+      <div className="flex justify-between p-5">
+        <a
+          href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/materials/countertops/countertop"
+          className="px- mb-7 inline-flex items-center justify-between rounded-full bg-gray-100 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+          role="alert"
+        >
+          <span className="bg-primary-600 rounded-full px-4 py-1.5 text-xs text-white">
+            Ready?{' '}
+          </span>{' '}
+          <span className="text-sm font-medium"> Get A Quote Now</span>
+          <svg
+            className="ml-2 h-5 w-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fillRule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+        </a>
       </div>
-      </>
-    )
-  }
-  
+      <PhotoGallery photos={kitchenphotos} />
+    </div>
+  )
+}
+
+export default Kitchen

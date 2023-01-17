@@ -21,7 +21,7 @@ export default function About() {
               <p>
               Our mission is simple: we’re committed to:
               </p>
-              <ul role="list">
+              <ul role="list" className='list-none'>
                 <li>Exceptional Quality</li>
                 <li>Competitve Prices</li>
                 <li>Customer Satisfaction</li>
@@ -96,17 +96,15 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <cite className="relative flex items-center rounded-b-lg bg-[#D2B48C]-600 py-5 px-6 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10">
-                <span className="relative flex-none rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
+              
+               
+                <span className="ml-5 font-semibold leading-6 text-[white] sm:ml-5 sm:pl-1 flex wrap align-middle justify-center column pb-10">
+                  <span className="font-semibold text-white sm:inline">- Debbie T</span>{' '}
                  
-                </span>
-                <span className="relative ml-0 font-semibold leading-6 text-[white] sm:ml-0 sm:pl-1">
-                  <span className="font-semibold text-white sm:inline">Debbie T</span>{' '}
-                  <span className="sm:inline">&nbsp; - Bathroom Countertop Intallation</span>
                   <br/>
-                  <a className='text-[blue]' href='https://www.google.com/search?q=precision+stoneworks&oq=preci&aqs=chrome.0.69i59j69i57j69i61j69i60l3.1590j0j9&sourceid=chrome&ie=UTF-8#lrd=0x88f59253aa15547f:0x6c9195aeb7543d34,1'>See More Reviews</a> 
+                  <a className='text-[blue] ml-5' href='https://www.google.com/search?q=precision+stoneworks&oq=preci&aqs=chrome.0.69i59j69i57j69i61j69i60l3.1590j0j9&sourceid=chrome&ie=UTF-8#lrd=0x88f59253aa15547f:0x6c9195aeb7543d34,1'>See More Reviews</a> 
                 </span>
-              </cite>
+            
             </blockquote>
           </div>
         </div>

@@ -6,11 +6,23 @@ import {
   ChatBubbleLeftRightIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
- import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/Untitled design.png'
-import {BsThreeDots} from 'react-icons/all'
-import {MdOutlineCountertops, MdOutlineBathroom} from 'react-icons/all'
+import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/Untitled design.png'
+import { BsThreeDots } from 'react-icons/all'
+import { MdOutlineCountertops, MdOutlineBathroom } from 'react-icons/all'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
+import Partners from './Partners'
+import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/DesignToolCTA.jsx'
+import { Link, Route, Routes } from 'react-router-dom'
+import About from './About'
+import Kitchen from '../Kitchen'
+import Bathroom from '../Bathroom'
+import Other from '../Other'
+import Contact from '../Contact'
+import DesignCTA from './DesignCta'
+
+
+
 const solutions = [
   {
     name: 'Kitchens',
@@ -30,13 +42,9 @@ const solutions = [
     href: '#',
     icon: BsThreeDots,
   },
- 
+
 ]
-const navigation = [
-  { name: 'Instant Quote', href: '#' },
-  { name: 'Design Tool', href: '#' },
-  { name: 'Contact', href: '#' },
-]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -44,161 +52,14 @@ function classNames(...classes) {
 
 export default function Hero() {
   return (
+
     <div className="bg-[#161719]">
-      <header className=''>
-        <Popover className="relative bg-[#161719]">
-          <div className="mx-auto flex max-w-7xl items-center justify-between py-6 px-6 md:justify-start md:space-x-10 lg:px-8">
-            <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
-                <span className="sr-only">Precision Stoneworks</span>
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src={logo}
-                  alt=""
-                />
-              </a>
-            </div>
 
-            <div className="-my-2 -mr-2 md:hidden">
-              <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-[white] hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#D2B48C]">
-                <span className="sr-only">Open menu</span>
-                <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-              </Popover.Button>
-            </div>
 
-            {/* Pop out nav bar */}
-            <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-              <Popover className="relative">
-                {({ open }) => (
-                  <>
-                    <Popover.Button
-                      className={classNames(
-                       
-                        'text-[white] group inline-flex items-center rounded-md bg-none  font-medium hover:text-white focus:outline-none focus:ring-2 focus:ring-[#D2B48C] focus:ring-offset-2'
-                      )}
-                    >
-                      <span>Our Designs</span>
-                      <ChevronDownIcon
-                        className={classNames(
-                          'text-[#D2B48C]',
-                          'ml-2 h-5 w-5 group-hover:gold'
-                        )}
-                        aria-hidden="true"
-                      />
-                    </Popover.Button>
 
-                    <Transition
-                      as={Fragment}
-                      enter="transition ease-out duration-200"
-                      enterFrom="opacity-0 translate-y-1"
-                      enterTo="opacity-100 translate-y-0"
-                      leave="transition ease-in duration-150"
-                      leaveFrom="opacity-100 translate-y-0"
-                      leaveTo="opacity-0 translate-y-1"
-                    >
-                      <Popover.Panel className="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform lg:left-1/2 lg:ml-0 lg:max-w-2xl lg:-translate-x-1/2 !text-white">
-                        <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                          <div className="relative grid gap-6 bg-[#161719] px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2 !text-white">
-                            {solutions.map((item) => (
-                              <a
-                                key={item.name}
-                                href={item.href}
-                                className="-m-3 flex items-start rounded-lg p-3 hover:[#d2b48c] "
-                              >
 
-                                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-[#D2B48C] text-white sm:h-12 sm:w-12">
-                                  <item.icon className="h-6 w-6" aria-hidden="true" />
-                                </div>
-                                <div className="ml-4">
-                                  <p className="text-white font-medium text-white">{item.name}</p>
-                                  <p className="mt-1 text-sm text-white">{item.description}</p>
-                                </div>
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      </Popover.Panel>
-                    </Transition>
-                  </>
-                )}
-              </Popover>
 
-              {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-medium text-[white] hover:text-[#D2B48C]">
-                  {item.name}
-                </a>
-              ))}
-            </Popover.Group>
-
-          </div>
-
-          <Transition
-            as={Fragment}
-            enter="duration-200 ease-out"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="duration-100 ease-in"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-          >
-            <Popover.Panel
-              focus
-              className="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden"
-            >
-              <div className="divide-y-2 divide-gray-50 rounded-lg bg-[#161719] shadow-lg ring-1 ring-black ring-opacity-5">
-                <div className="px-5 pt-5 pb-6">
-                  <div className="flex items-center justify-between">
-                    <div >
-                      <img
-                        className="h-8 w-auto"
-                        src={logo}
-                        alt="Your Company"
-                      />
-                    </div>
-                    <div className="-mr-2">
-                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#D2B48C]">
-                        <span className="sr-only">Close menu</span>
-                        <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                      </Popover.Button>
-                    </div>
-                  </div>
-                  <div className="mt-6">
-                    <nav className="grid grid-cols-1 gap-7">
-                      {solutions.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
-                        >
-                          <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-[#D2B48C] text-white">
-                            <item.icon className="h-6 w-6" aria-hidden="true" />
-                          </div>
-                          <div className="ml-4  font-medium text-[white]">{item.name}</div>
-                        </a>
-                      ))}
-                    </nav>
-                  </div>
-                </div>
-                <div className="py-6 px-5">
-                  <div className="grid grid-cols-2 gap-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className=" font-medium text-[white] hover:text-[#dfb48c]"
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
-                 
-                </div>
-              </div>
-            </Popover.Panel>
-          </Transition>
-        </Popover>
-      </header>
-
+      {/* ADD NAVBAR ABOVE */}
       <main>
         <div className='h-[50%]'>
           {/* Hero card */}
@@ -215,21 +76,21 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-[] background--custom mix-blend-multiply" />
                 </div>
                 <div className="relative py-16 px-6 sm:py-24 lg:py-32 lg:px-8">
-                    <div className='flex justify-center align-middle'>
-                <img
-                        className="w-[30%]"
-                        src={logo}
-                        alt="Your Company"
-                      />
-                      </div>
+                  <div className='flex justify-center align-middle'>
+                    <img
+                      className="w-[30%]"
+                      src={logo}
+                      alt="Your Company"
+                    />
+                  </div>
                   <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl w-[100%] text-[#D2B48C] italic">
-                    Where 
+                    Where
                     Quality
                     Matters
                   </h1>
-                  
+
                   <p className="mx-auto mt-6 max-w-lg text-center text-xl text-[white] sm:max-w-3xl">
-                  From custom design, stone selection, fabrication down to installation. Our mission is simple: we’re committed to exceptional quality, competitive prices, and, above all, customer satisfaction.
+                    From custom design, stone selection, fabrication down to installation. Our mission is simple: we’re committed to exceptional quality, competitive prices, and, above all, customer satisfaction.
                   </p>
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                     <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
@@ -241,15 +102,20 @@ export default function Hero() {
                       </a>
                       <a
                         href="#"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-[#D2B48C] bg-opacity-60 px-4 py-3 text-white font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-[#D2B48C] bg-opacity-60 px-4 py-3 font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
                       >
                         Design Tool
                       </a>
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          <DesignCTA />
+          <About />
+          <Partners />
+          <CallToAction />
           </div>
 
           {/* Logo cloud */}
