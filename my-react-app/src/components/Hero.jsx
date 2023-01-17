@@ -35,7 +35,7 @@ const solutions = [
 const navigation = [
   { name: 'Instant Quote', href: '#' },
   { name: 'Design Tool', href: '#' },
-  { name: 'About Us', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 function classNames(...classes) {
@@ -222,11 +222,10 @@ export default function Hero() {
                         alt="Your Company"
                       />
                       </div>
-                  <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl w-[100%] text-white">
-                    Where &nbsp;
-                    <span className="text-[#D2B48C]">Quality&nbsp;
-                    Matters</span>
-                    
+                  <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl w-[100%] text-[#D2B48C] italic">
+                    Where 
+                    Quality
+                    Matters
                   </h1>
                   
                   <p className="mx-auto mt-6 max-w-lg text-center text-xl text-[white] sm:max-w-3xl">
@@ -238,13 +237,13 @@ export default function Hero() {
                         href="#"
                         className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-white font-medium text-[#d2b48c] shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
                       >
-                        Get started
+                        Instant Quote
                       </a>
                       <a
                         href="#"
                         className="flex items-center justify-center rounded-md border border-transparent bg-[#D2B48C] bg-opacity-60 px-4 py-3 text-white font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
                       >
-                        Live demo
+                        Design Tool
                       </a>
                     </div>
                   </div>
@@ -254,7 +253,7 @@ export default function Hero() {
           </div>
 
           {/* Logo cloud */}
-          <div className="bg-gray-100">
+          {/* <div className="bg-gray-100">
             <div className="mx-auto max-w-7xl py-16 px-6 lg:px-8">
               <p className="text-center text-white font-semibold text-gray-500">
                 Our Trusted Partners
@@ -289,7 +288,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* More main page content here... */}

@@ -1,65 +1,123 @@
-import '@tailwindcss/typography' from "@tailwindcss/typography"
 
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
 export default function Content() {
-    return (
-      <div className="relative bg-white">
-        <div className="lg:absolute lg:inset-0">
-          <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-            <img
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
-              alt=""
-            />
-          </div>
+  return (
+    <div className="overflow-hidden bg-[#161719] py-16">
+      <div className="mx-auto max-w-7xl space-y-8 px-6 lg:px-8">
+        <div className="mx-auto max-w-prose text-base lg:max-w-none">
+          <h2 className="text-lg font-semibold text-[white]">About Us</h2>
+          <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#D2B48C] sm:text-4xl">
+            Not All Stone Fabricators Are Equal
+          </p>
         </div>
-        <div className="relative px-6 pt-12 pb-16 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-          <div className="lg:col-start-2 lg:pl-8">
-            <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <h2 className="font-semibold leading-6 text-indigo-600">Work with us</h2>
-              <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
-              <p className="mt-8 text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+        <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
+          <p className="text-lg text-gray-500">
+            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
+            pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor
+            vitae ut. Amet vitae fames senectus vitae.
+          </p>
+        </div>
+        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
+          <div className="relative z-10">
+            <div className="prose prose-[#D2B48C] mx-auto text-gray-500 lg:max-w-none">
+              <p>
+                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
+                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
               </p>
-              <div className="prose prose-indigo mt-5 text-gray-500">
-                <p>
-                  Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                  pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
-                </p>
-                <p>
-                  Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                  fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
-                </p>
-                <p>
-                  Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
-                </p>
-                <ul role="list">
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
-                <p>
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                  velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                  egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-                </p>
-                <h3>How we’re different</h3>
-                <p>
-                  Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                  Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                  lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
-                </p>
-                <p>
-                  Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus,
-                  eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare
-                  suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum
-                  imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.
-                </p>
+              <ul role="list">
+                <li>Quis elit egestas venenatis mattis dignissim.</li>
+                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
+                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+              </ul>
+              <p>
+                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
+                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
+                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+              </p>
+              <h3>We’re here to help</h3>
+              <p>
+                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
+                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
+                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+              </p>
+            </div>
+            <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#D2B48C] px-5 py-3 text-base font-medium text-white hover:bg-[#D2B48C]"
+                >
+                  Contact sales
+                </a>
+              </div>
+              <div className="ml-4 rounded-md shadow">
+                <a
+                  href="#"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-[#D2B48C]-600 hover:bg-gray-50"
+                >
+                  Learn more
+                </a>
               </div>
             </div>
           </div>
+          <div className="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
+            <svg
+              className="absolute top-0 right-0 -mt-20 -mr-20 lg:top-auto lg:right-auto lg:bottom-1/2 lg:left-1/2 lg:mt-0 lg:mr-0 xl:top-0 xl:right-0 xl:-mt-20 xl:-mr-20"
+              width={404}
+              height={384}
+              fill="none"
+              viewBox="0 0 404 384"
+              aria-hidden="true"
+            >
+              <defs>
+                <pattern
+                  id="bedc54bc-7371-44a2-a2bc-dc68d819ae60"
+                  x={0}
+                  y={0}
+                  width={20}
+                  height={20}
+                  patternUnits="userSpaceOnUse"
+                >
+                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                </pattern>
+              </defs>
+              <rect width={404} height={384} fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
+            </svg>
+            <blockquote className="relative rounded-lg bg-[#D2B48c] shadow-lg opacity-90">
+              <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
+                <img
+                  src={logo}
+                  className="h-8"
+                />
+                <div className="relative mt-8 text-lg font-medium text-gray-700">
+                  <svg
+                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-200"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                  >
+                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  </svg>
+                  <p className="relative pl-6">
+                  Precision Stoneworks did an amazing job! From the moment we stopped by their showroom until installation of our quartz bathroom countertops... we were 100% satisfied with choosing this company. We had a delay with our bathroom getting to the point of actually needing the countertops installed and they were VERY patient with us. They came to measure at exactly the time they said they would and were right on time to install. It was SUCH an easy process..."
+                  </p>
+                </div>
+              </div>
+              <cite className="relative flex items-center rounded-b-lg bg-[#D2B48C]-600 py-5 px-6 not-italic sm:mt-10 sm:items-start sm:py-5 sm:pl-12 sm:pr-10">
+                <span className="relative flex-none rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
+                 
+                </span>
+                <span className="relative ml-0 font-semibold leading-6 text-[white] sm:ml-0 sm:pl-1">
+                  <span className="font-semibold text-white sm:inline">Debbie T</span>{' '}
+                  <span className="sm:inline">&nbsp; - Bathroom Countertop Intallation</span>
+                  <br/>
+                  <a className='text-[blue]' href='https://www.google.com/search?q=precision+stoneworks&oq=preci&aqs=chrome.0.69i59j69i57j69i61j69i60l3.1590j0j9&sourceid=chrome&ie=UTF-8#lrd=0x88f59253aa15547f:0x6c9195aeb7543d34,1'>See More Reviews</a> 
+                </span>
+              </cite>
+            </blockquote>
+          </div>
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}
