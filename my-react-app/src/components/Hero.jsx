@@ -235,7 +235,7 @@ export default function Hero() {
                     <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
                       <a
                         href="#"
-                        className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-white font-medium text-[#d2b48c] shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
+                        className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-black font-medium shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
                       >
                         Instant Quote
                       </a>

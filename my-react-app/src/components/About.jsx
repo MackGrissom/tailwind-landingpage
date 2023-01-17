@@ -1,44 +1,37 @@
 
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
-export default function Content() {
+export default function About() {
   return (
     <div className="overflow-hidden bg-[#161719] py-16">
       <div className="mx-auto max-w-7xl space-y-8 px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:max-w-none">
           <h2 className="text-lg font-semibold text-[white]">About Us</h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#D2B48C] sm:text-4xl">
-            Not All Stone Fabricators Are Equal
+          Precision Stoneworks at a Glance
           </p>
         </div>
         <div className="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72">
           <p className="text-lg text-gray-500">
-            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-            pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor
-            vitae ut. Amet vitae fames senectus vitae.
+          Since 1999, Precision Stoneworks has proudly served residential builders, commercial contractors, remodelers and DIY clients throughout Atlanta and the North Georgia region. We are a full service company equipped with a knowledgeable and skilled team who will work with you through each step in the process, down to the final installation. From custom design, stone selection, fabrication down to installation, our artisans and craftsmen collectively have over 150 years of experience in the stone & quartz counter top business. 
           </p>
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-8">
           <div className="relative z-10">
             <div className="prose prose-[#D2B48C] mx-auto text-gray-500 lg:max-w-none">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+              Our mission is simple: we’re committed to:
               </p>
               <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+                <li>Exceptional Quality</li>
+                <li>Competitve Prices</li>
+                <li>Customer Satisfaction</li>
               </ul>
               <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+              The process of building a home, a neighborhood, or a neighborhood involves the cooperation and coordination of many moving parts. At Precision Stoneworks, we know that stone fabrication and installation are just one piece of the puzzle. We understand the importance of deadlines, and we pride ourselves in producing the highest quality work at competitive prices. Whether design, slab selection, templates, fabrication or installation our team makes your project our top priority.
               </p>
-              <h3>We’re here to help</h3>
+              <h3 className='!text-[#D2B48C]'>Not All Stone Fabricators Are Equal</h3>
               <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+              With building booming across the region, Precision Stoneworks, still takes the time to focus on the individual requirements for our clients.  Located in Buford, Georgia, we offer affordable & competitive prices on Granite, Marble, Quartzite, Quartz, and Soapstone. Precision Stoneworks makes it our priority to deliver high quality countertops at competitive prices. For more information about our products and services, give us a call, or feel free to stop by newly remodeled showroom today and speak with one of our stone specialists about your upcoming project. 
               </p>
             </div>
             <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
@@ -47,7 +40,7 @@ export default function Content() {
                   href="#"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#D2B48C] px-5 py-3 text-base font-medium text-white hover:bg-[#D2B48C]"
                 >
-                  Contact sales
+                  Contact Us
                 </a>
               </div>
               <div className="ml-4 rounded-md shadow">
@@ -55,7 +48,7 @@ export default function Content() {
                   href="#"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-[#D2B48C]-600 hover:bg-gray-50"
                 >
-                  Learn more
+                  Learn About Our Stone
                 </a>
               </div>
             </div>
