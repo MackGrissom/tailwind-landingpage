@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* gold = #D2B48C
+black - #161719 */
+
+/* Hover effect on dropdown menu items */
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(1) {
+    background-color: gray!important;
+    
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(2) {
+    background-color: gray!important;
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(3){
+    background-color: gray!important;
+}
+/*  */
+
+
+/* hover effects on navbar items */
+#root > div > div > header > div > div > nav > a:nth-child(2) {
+    color: #D2B48C;
+}
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(1):hover {
+    background-color: gray!important;
+    
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(2):hover {
+    transform: scale(101%);
+    opacity: 90%;
+   
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(1):hover {
+    transform: scale(101%);
+    opacity: 90%;
+   
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(3):hover {
+    transform: scale(101%);
+    opacity: 90%;
+   
+}
+
+#headlessui-popover-panel-\:rb\: > div > div > a:nth-child(3):hover{
+    background-color: gray!important;
+}
+/*  */
+
+
+/* hover effects on navbar items */
+#root > div > div > header > div > div > nav > a:nth-child(2):hover {
+    color: #D2B48C;
+}
+
+#root > div > div > header > div > div > nav > a:nth-child(2) {
+    color: white;
+}
