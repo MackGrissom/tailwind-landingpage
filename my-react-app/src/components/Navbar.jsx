@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
-
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
 
 
 function classNames(...classes) {
@@ -20,16 +20,16 @@ export default function Navbar() {
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="block h-8 w-auto lg:hidden"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                        src={logo}
                                         alt="Your Company"
                                     />
                                     <img
                                         className="hidden h-8 w-auto lg:block"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                        src={logo}
                                         alt="Your Company"
                                     />
                                 </div>
-                                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+                                <div className="hidden sm:ml-6 sm:flex sm:space-x-8 ">
                                     {/* Current: "border-[#D2B48C] text-[#D2B48C]", Default: "border-transparent text-[#D2B48C] hover:border-gray-300 hover:text-gray-700" */}
                                     <Link
                                         to='/'
@@ -89,34 +89,59 @@ export default function Navbar() {
                     <Disclosure.Panel className="sm:hidden">
                         <div className="space-y-1 pt-2 pb-3">
                             {/* Current: "bg-indigo-50 border-[#D2B48C] text-indigo-700", Default: "border-transparent text-[#D2B48C] hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+                           
                             <Disclosure.Button
                                 as="a"
-                                href="#"
-                                className="block border-l-4 border-[#D2B48C] bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
-                            >
-                                Dashboard
-                            </Disclosure.Button>
-                            <Disclosure.Button
-                                as="a"
-                                href="#"
+                               
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
-                                Team
+                               <Link to='/'> Home </Link>
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                               
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
-                                Projects
+                               <Link to='/projects'> Projects </Link>
+                            </Disclosure.Button>
+                         
+                            <Disclosure.Button
+                                as="a"
+                               
+                                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                            >
+                               <Link to='/projects'> Projects </Link>
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                               
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
-                                Calendar
+                               <Link to='/partners'> Partners </Link>
                             </Disclosure.Button>
+                            <Disclosure.Button
+                                href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/materials/countertops/countertop"
+                               
+                                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                            >
+                              Instant Quote
+                            </Disclosure.Button>
+                         
+                            <Disclosure.Button
+                                href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/visualizerp"
+                               
+                                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                            >
+                              Design Tool
+                            </Disclosure.Button>
+                            <Disclosure.Button
+                                as="a"
+                               
+                                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                            >
+                               <Link to='/contact'> Contact Us </Link>
+                            </Disclosure.Button>
+                         
                         </div>
                     
                     </Disclosure.Panel>
