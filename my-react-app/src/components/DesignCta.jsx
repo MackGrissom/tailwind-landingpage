@@ -10,64 +10,51 @@ export default function Example() {
                             Our Portfolio
                         </p>
                         <p className="mx-auto mt-5 max-w-xl text-l text-gray-500">
-                            Take a look at our work,  discover inspiration and get ready for your next big project
-                        </p>
+                            Click Below To Take A Look At Our Work </p>
+                        
+                            <ul className="flex flex-wrap justify-center align-middle gap-4 pt-10 pb-10">
+                                <li> <a
+                            href="#"
+                            className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-black font-medium shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
+                        >
+                            Kitchens
+                        </a></li>
+
+
+
+                                <li>  <a
+                            href="#"
+                            className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-black font-medium shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
+                        >
+                            Bathrooms 
+                        </a></li>
+
+
+
+                                <li>  <a
+                            href="#"
+                            className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-black font-medium shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
+                        >
+                            Other Designs
+                        </a></li>
+
+
+
+                            </ul>
+                        
                     </div>
                 </div>
             </div>
-            
-{/* Image Cards for portfolio sections */}
-            <div class="py-4 lg:flex justify-evenly p-7">
-
-                {/* card 1 */}
-    <div class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div bg-[url('/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen8.webp')] hover:bg-[url('/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen8.webp')] m-2 w-[20%] pl-0 pr-0 mr-0 ml-0">
-        <div>
-       
-       
-        </div>
-        <div class="absolute">
-      
-       <div class=" text-center">
-          <a href='/kitchen'> <button class="text-center rounded-lg p-4 bg-[#D2B48C]  text-white font-bold text-lg hover:bg-white hover:text-black">Kitchen Designs</button></a>
-           </div>
-    </div>
-    </div>
-
-    {/* card 2 */}
-    <div class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div bg-[url('/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom1.webp')] hover:bg-[url('/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom1.webp')] m-2 w-[20%] pl-0 pr-0 mr-0 ml-0">
-        <div>
-       
-       
-        </div>
-        <div class="absolute">
-
-       <div class=" text-center">
-          <a href='/bathroom'> <button class="text-center rounded-lg p-4 bg-[#D2B48C]  text-white font-bold text-lg hover:bg-white hover:text-black">Bathroom Designs</button></a>
-           </div>
-    </div>
-    </div>
-   
-{/* card 3 */}
-<div class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div bg-[url('/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other4.webp')] m-2 w-[20%] pl-0 pr-0 mr-0 ml-0">
-        <div>
-        <div  class="w-full image-cover rounded-t-md" >
-         
-        </div>
-       
-        </div>
-        <div class="absolute">
-       
-       <div class="text-center">
-          <a href='/other'> <button class="text-center rounded-lg p-4 bg-[#D2B48C]  text-white font-bold text-lg hover:bg-white hover:text-black">Other Designs</button></a>
-           </div>
-    </div>
-    </div>
 
 
 
 
 
-</div>
+
+
+
+
+
 
         </>
     )

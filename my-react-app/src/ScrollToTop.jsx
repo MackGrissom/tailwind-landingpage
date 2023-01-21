@@ -32,7 +32,9 @@ const ScrollToTop = () =>{
   return (
     <Button>
      <RxDoubleArrowUp onClick={scrollToTop} 
-     style={{display: visible ? 'inline' : 'none'}} />
+     style={{display: visible ? 'inline' : 'none'}} 
+     className='animate-bounce'
+     />
     </Button>
   );
 }
