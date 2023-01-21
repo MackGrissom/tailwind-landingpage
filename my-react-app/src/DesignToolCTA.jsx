@@ -2,18 +2,18 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
 import designTool from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/DesignTool.png'
 export default function CallToAction() {
   return (
-    <div className="relative bg-[#161719]">
+    <div className="relative bg-[161719] border-[#d2b48c] border-t border-b mb-40 mt-40">
       <div className="h-56 bg-[#161719]sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover rounded shadow-lg shadow-[#d2b48c]"
           src={designTool}
           alt=""
         />
       </div>
       <div className="relative mx-auto max-w-7xl py-12 px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
-          <h2 className="text-lg font-semibold text-gray-300">Having trouble deciding which stone suits you?</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
+        <h2 className='text-white'>Need Some Inspiration?</h2>
+          <p className="mt-2 text-2xl font-bold tracking-tight text-[#d2B48c] sm:text-2xl">Try Our Kitchen Vizualizer Design Tool</p>
           <p className="mt-3 text-lg text-gray-300">
           Our kitchen visualizer provides you with an interactive, easy to use kitchen remodeling design experience. Our tools are loaded with multiple room layouts to choose from and you can customize with hundreds of kitchen countertop materials so you can truly visualize your space with a new look. Save your design and share it to your email, Facebook, Twitter, or Pinterest. Don’t forget you can also try our online instant quote tool!
           </p>

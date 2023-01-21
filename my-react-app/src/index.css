@@ -4,6 +4,9 @@
 /* gold = #D2B48C
 black - #161719 */
 
+#root {
+    background-color: #161719;
+}
 
 /* h1 outline/shadow */
 h1 {
@@ -72,3 +75,42 @@ h1 {
 #root > div > div > header > div > div > nav > a:nth-child(2) {
     color: white;
 }
+
+
+/* hovering cards portfolio */
+.content-div{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+    .content-div:hover{
+      background-image:
+      linear-gradient(to right,
+       rgba(238, 205, 114, 0.801), hsla(0, 0%, 14%, 0.801) ),
+     
+      }
+  
+      .image-cover  {
+        height:260px;
+      }
+    /*
+    -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+    -also remove the class from the html template
+    */
+  
+
+      /* outline of span on portfilio card */
+     .span1 {
+        color: black;
+        text-shadow:
+         -1px -1px 0 #D2B48C,  
+          1px -1px 0 #D2B48C,
+          -1px 1px 0 #D2B48C,
+           1px 1px 0 #D2B48C;
+      }
+
+
+      /* scroll to top buton */
+
+  

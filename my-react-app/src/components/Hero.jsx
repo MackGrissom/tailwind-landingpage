@@ -20,6 +20,7 @@ import Bathroom from '../Bathroom'
 import Other from '../Other'
 import Contact from '../Contact'
 import DesignCTA from './DesignCta'
+import QuoteCTA from './QuoteCTA'
 
 
 
@@ -101,10 +102,10 @@ export default function Hero() {
                         Instant Quote
                       </a>
                       <a
-                        href="#"
+                        href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/visualizer"
                         className="flex items-center justify-center rounded-md border border-transparent bg-[#D2B48C] bg-opacity-60 px-4 py-3 font-medium text-white shadow-sm hover:bg-opacity-70 sm:px-8"
                       >
-                        Design Tool
+                        Kitchen Visualizer
                       </a>
 
                     </div>
@@ -113,9 +114,10 @@ export default function Hero() {
               </div>
             </div>
           <DesignCTA />
+          <CallToAction />
+          <QuoteCTA />
           <About />
           <Partners />
-          <CallToAction />
           </div>
 
           {/* Logo cloud */}

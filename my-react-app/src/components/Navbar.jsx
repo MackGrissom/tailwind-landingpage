@@ -41,13 +41,13 @@ export default function Navbar() {
                                         to='/projects'
                                         className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#D2B48C] hover:border-gray-300 hover:text-gray-700"
                                     >
-                                        Our Projects
+                                        Portfolio
                                     </Link>
                                     <Link
                                         to='partners'
                                         className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#D2B48C] hover:border-gray-300 hover:text-gray-700"
                                     >
-                                        Our Partners
+                                        Partners
                                     </Link>
                                     <a
                                         href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/materials/countertops/countertop"

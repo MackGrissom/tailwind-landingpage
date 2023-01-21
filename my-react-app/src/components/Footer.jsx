@@ -74,8 +74,8 @@ const navigation = {
 
 export default function Footer() {
     return (
-        <footer className="bg-[#161719]">
-            <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-24 lg:px-8">
+        <footer className="bg-[#161719] mb-0 pb-0 border-t">
+            <div className="mx-auto max-w-7xl overflow-hidden px-6 sm:py-24 lg:px-8">
                 <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
                     {navigation.main.map((item) => (
                         <div key={item.name} className="pb-6">
@@ -97,7 +97,7 @@ export default function Footer() {
                     &copy; 2023 Precision Stoneworks All rights reserved.
                 </p>
                 <p className=" text-center text-xs leading-5 text-gray-500">
-                    Website Designed And Developed By: <a href="https://www.mackgrissom.io" className="text-[gold]">Mack Grissom</a>, <a href="https://www.fullcircledesign.io" className="text-[gold]">Full Circle Web Design</a>
+                    Website Designed And Developed By: <a href="https://www.mackgrissom.io" className="text-[gold]">Mack Grissom</a>, <a href="https://www.fullcircledesign.io" className="text-[gold] mb-0 pb-0">Full Circle Web Design</a>
                 </p>
             </div>
         </footer>
