@@ -24,6 +24,7 @@ import QuoteCTA from './QuoteCTA'
 import Carousel from './Carousel'
 import WhyUs from './WhyUs'
 import Photos from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/components/Photos.jsx'
+import ProjectCard from './ProjectCard'
 
 const solutions = [
   {
@@ -116,7 +117,7 @@ export default function Hero() {
             </div>
             <WhyUs />
        
-        <Photos />
+            <ProjectCard />
           <QuoteCTA />
           <About />
           <CallToAction />

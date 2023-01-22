@@ -76,34 +76,29 @@ export default function About() {
               </defs>
               <rect width={404} height={384} fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
             </svg>
-            <blockquote className="relative rounded-lg bg-[#D2B48c] shadow-lg opacity-90">
+            <blockquote className="relative rounded-lg bg-[#D2B48c] shadow-lg opacity-100">
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <img
                   src={logo}
                   className="h-8"
                 />
                 <div className="relative mt-8 text-lg font-medium text-gray-700">
-                  <svg
-                    className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-200"
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    aria-hidden="true"
-                  >
-                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                  </svg>
-                  <p className="relative pl-6">
-                  Precision Stoneworks did an amazing job! From the moment we stopped by their showroom until installation of our quartz bathroom countertops... we were 100% satisfied with choosing this company. We had a delay with our bathroom getting to the point of actually needing the countertops installed and they were VERY patient with us. They came to measure at exactly the time they said they would and were right on time to install. It was SUCH an easy process..."
+                  
+                  <p className="relative pl-6 text-black">
+                  "Precision Stoneworks did an amazing job! From the moment we stopped by their showroom until installation of our quartz bathroom countertops... we were 100% satisfied with choosing this company...."
                   </p>
+                  
                 </div>
               </div>
               
-               
-                <span className="ml-5 font-semibold leading-6 text-[white] sm:ml-5 sm:pl-1 flex wrap align-middle justify-center column pb-10">
-                  <span className="font-semibold text-white sm:inline">- Debbie T</span>{' '}
+               <div className='block'>
+                <span className="ml-5 font-semibold leading-6 text-[white] sm:ml-5 sm:pl-1 flex wrap align-middle justify-center column pb-10 block">
+                  <span className="font-semibold text-black sm:inline">- Debbie T</span>{' '}
                  
                   <br/>
-                  <a className='text-[blue] ml-5' href='https://www.google.com/search?q=precision+stoneworks&oq=preci&aqs=chrome.0.69i59j69i57j69i61j69i60l3.1590j0j9&sourceid=chrome&ie=UTF-8#lrd=0x88f59253aa15547f:0x6c9195aeb7543d34,1'>See More Reviews</a> 
+                  <a className='text-[blue] ml-5 block' href='https://www.google.com/search?q=precision+stoneworks&oq=preci&aqs=chrome.0.69i59j69i57j69i61j69i60l3.1590j0j9&sourceid=chrome&ie=UTF-8#lrd=0x88f59253aa15547f:0x6c9195aeb7543d34,1'>See More Reviews</a> 
                 </span>
+                </div>
             
             </blockquote>
           </div>
