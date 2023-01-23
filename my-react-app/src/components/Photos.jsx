@@ -197,7 +197,7 @@ const Kitchens = () => {
                     </div>
                 </div>
             </div>
-     {/* <PhotoGallery photos={kitchenphotos} /> */}
+     <PhotoGallery photos={kitchenphotos} />
      
     </div>
   )

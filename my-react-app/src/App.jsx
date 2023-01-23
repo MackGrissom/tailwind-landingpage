@@ -7,6 +7,8 @@ import Partners from './components/Partners';
 import Kitchen from './Kitchen';
 import Projects from "./components/Projects";
 import Contact from "./Contact";
+import Bathroom from "./Bathroom";
+import Other from "./Other";
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/kitchen' element={<Kitchen/>}/>
+        <Route path='/bathroom' element={<Bathroom/>}/>
+        <Route path='/other' element={<Other/>}/>
         
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/partners' element={<Partners/>}/>

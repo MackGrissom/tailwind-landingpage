@@ -26,30 +26,6 @@ import WhyUs from './WhyUs'
 import Photos from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/components/Photos.jsx'
 import ProjectCard from './ProjectCard'
 
-const solutions = [
-  {
-    name: 'Kitchens',
-    description: 'The kitchen has become the new focal point & gathering place in the home.The countertops are an essential piece of the new modern kitchen',
-    href: '#',
-    icon: MdOutlineCountertops,
-  },
-  {
-    name: 'Bathrooms',
-    description: 'The bathroom is one of the most frequently visited rooms in the home and as such has become a space where homeowners want to put their personal touch with regards to design.  Our countertop specialists are happy to help ',
-    href: '#',
-    icon: MdOutlineBathroom,
-  },
-  {
-    name: 'Other',
-    description: "While kitchens and bathrooms are the most common areas for granite, marble, quartzite, quartz, soapstone and limestone, we see clients utilizing stone in a variety of other locations in the home.",
-    href: '#',
-    icon: BsThreeDots,
-  },
-
-]
-
-
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -121,7 +97,7 @@ export default function Hero() {
           <QuoteCTA />
           <About />
           <CallToAction />
-          <Partners />
+          
           </div>
 
        

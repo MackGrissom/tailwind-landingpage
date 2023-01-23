@@ -79,7 +79,7 @@ export default function Footer() {
                 <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
                     {navigation.main.map((item) => (
                         <div key={item.name} className="pb-6">
-                            <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                            <a href={item.href} className="text-sm leading-6 text-[#d2b48c]  hover:text-gray-900">
                                 {item.name}
                             </a>
                         </div>
@@ -87,7 +87,7 @@ export default function Footer() {
                 </nav>
                 <div className="mt-10 flex justify-center space-x-10">
                     {navigation.social.map((item) => (
-                        <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                        <a key={item.name} href={item.href} className="text-[#d2b48c] hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </a>
@@ -97,7 +97,7 @@ export default function Footer() {
                     &copy; 2023 Precision Stoneworks All rights reserved.
                 </p>
                 <p className=" text-center text-xs leading-5 text-gray-500">
-                    Website Designed And Developed By: <a href="https://www.mackgrissom.io" className="text-[gold]">Mack Grissom</a>, <a href="https://www.fullcircledesign.io" className="text-[gold] mb-0 pb-0">Full Circle Web Design</a>
+                    Website Designed And Developed By: <a href="https://www.mackgrissom.io" className="text-white">Mack Grissom,</a>, <a href="https://www.fullcircledesign.io" className="text-[#d2b48c]  mb-0 pb-0">Full Circle Web Design</a>
                 </p>
             </div>
         </footer>
