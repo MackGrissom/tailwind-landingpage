@@ -5,7 +5,7 @@ import p3 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src
 
 const Member = () => {
   return (
-    <div className="flex justify-center align-center  w-full border-t border-[#D2B48C] border-b">
+    <div className="flex justify-center align-center  w-full ">
         
     <div className="">
     <div className="text-center  w-100">
