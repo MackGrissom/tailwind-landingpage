@@ -122,10 +122,16 @@ export default function Navbar() {
                                         Design Tool
                                     </a>
                                     <Link
-                                        to='/contact'
+                                        to='contact'
                                         className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#D2B48C] hover:border-gray-300 hover:text-gray-700"
                                     >
-                                        Contact Us
+                                        Contact
+                                    </Link>
+                                    <Link
+                                        to='about'
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-[#D2B48C] hover:border-gray-300 hover:text-gray-700"
+                                    >
+                                        About
                                     </Link>
                                    
                                    
@@ -199,7 +205,7 @@ export default function Navbar() {
                                
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-[#D2B48C] hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
-                               <Link to='/contact'> Contact Us </Link>
+                               <Link to='contact'> Contact Us </Link>
                             </Disclosure.Button>
                          
                         </div>

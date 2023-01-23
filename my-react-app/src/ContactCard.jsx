@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactCard = () => {
   return (
-  <div className="bg-none">
+  <div className="bg-none border-t border-[#d2b48c] border-dotted border-t-2">
       <div className="mx-auto max-w-7xl py-16 px-6 lg:py-24 lg:px-8">
         <div className="divide-y-2 divide-gray-200">
           <div className="lg:grid lg:grid-cols-3 lg:gap-8">
@@ -57,7 +57,7 @@ Friday 7:00 AM to 3:30 PM <br/>
       </div>
     </div>
     <div className="flex align-middle justify-center pb-10">
-    <strong className='text-[#d2b48c] align-middle text-center text-sm'>*Please note: Visits to our showroom and granite fabrication shop are by appointment only.</strong>
+    <strong className='text-[#d2b48c] align-middle text-center text-xs'>*Please note: Visits to our showroom and granite fabrication shop are by appointment only.</strong>
     </div>
           </div>
   )

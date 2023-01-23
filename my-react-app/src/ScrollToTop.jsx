@@ -30,12 +30,14 @@ const ScrollToTop = () =>{
   window.addEventListener('scroll', toggleVisible);
   
   return (
-    <Button>
+    <div className=''>
+    <Button className='md:ml-none ml-[140px] lg:ml-0 sm-ml-0'>
      <RxDoubleArrowUp onClick={scrollToTop} 
      style={{display: visible ? 'inline' : 'none'}} 
      className='animate-bounce'
      />
     </Button>
+    </div>
   );
 }
   

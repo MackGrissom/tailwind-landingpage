@@ -1,30 +1,14 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import {
-  Bars3Icon,
-  ChatBubbleBottomCenterTextIcon,
-  ChatBubbleLeftRightIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline'
 import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/Untitled design.png'
-import { BsThreeDots } from 'react-icons/all'
-import { MdOutlineCountertops, MdOutlineBathroom } from 'react-icons/all'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
-import Partners from './Partners'
 import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/DesignToolCTA.jsx'
-import { Link, Route, Routes } from 'react-router-dom'
 import About from './About'
-import Kitchen from '../Kitchen'
-import Bathroom from '../Bathroom'
-import Other from '../Other'
-import Contact from '../Contact'
-import DesignCTA from './DesignCta'
+
 import QuoteCTA from './QuoteCTA'
-import Carousel from './Carousel'
+
 import WhyUs from './WhyUs'
-import Photos from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/components/Photos.jsx'
+
 import ProjectCard from './ProjectCard'
+import Member from './Member'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -91,11 +75,12 @@ export default function Hero() {
                 </div>
               </div>
             </div>
+            <Member />
             <WhyUs />
        
             <ProjectCard />
           <QuoteCTA />
-          <About />
+          
           <CallToAction />
           
           </div>
