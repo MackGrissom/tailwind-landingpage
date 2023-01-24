@@ -81,7 +81,7 @@ const Kitchen = () => {
     <>
     <div className="hero relative mx-auto mb-0 pb-0 max-w-screen-xl  px-4  text-center lg:px-12">
       <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl ">
-      <div className='flex justify-center align-middle'>
+      <div className='flex justify-center align-middle pt'>
                     <img
                       className="w-[30%]"
                       src={logo}
@@ -89,7 +89,7 @@ const Kitchen = () => {
                     />
                   </div>
         {' '}
-        Our Kitchen Designs
+       Kitchens 
       </h1>
 
       <div className="flex justify-between p-5">

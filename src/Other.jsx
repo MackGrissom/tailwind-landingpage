@@ -42,7 +42,7 @@ const Other = () => {
                   </div>
       <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl ">
         {' '}
-        Other Designs
+        Other
       </h1>
      
       <div className="flex justify-between p-5">

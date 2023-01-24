@@ -12,7 +12,7 @@ import bathroom10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/asse
 import bathroom11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom11.webp'
 import bathroom12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom12.webp'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
-import Gallery from 'react-photo-gallery'
+// import Gallery from 'react-photo-gallery'
 
 const photos = [
   {
@@ -90,7 +90,7 @@ const Bathroom = () => {
                   </div>
       <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl ">
         {' '}
-        Our Bathroom Designs
+        Bathrooms
       </h1>
   
       <div className="flex justify-between p-5">
