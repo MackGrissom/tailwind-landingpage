@@ -28,7 +28,7 @@ import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/o
 import other2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other2.webp'
 import other3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other3.webp'
 import other4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other4.webp'
-import Carousel from '/home/mackgrissom/code/MackGrissom/tw-precision/src/components/Carousel.jsx'
+
 import { useState } from "react";
 
 export const allPhotos = [

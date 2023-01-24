@@ -11,8 +11,6 @@ import Kitchen9 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets
 import Kitchen10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen10.webp'
 import Kitchen11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen11.webp'
 import Kitchen12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen12.webp'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
-import ContactCard from './ContactCard'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
 import Gallery from 'react-photo-gallery'
 const photos = [
