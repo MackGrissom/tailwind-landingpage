@@ -4,6 +4,11 @@
 /* gold = #D2B48C
 black - #161719 */
 
+
+
+ *{
+    font-family: 'Aboreto', cursive;
+ }
 #root {
     background-color: #161719;
 }

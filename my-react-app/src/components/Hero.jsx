@@ -52,8 +52,8 @@ export default function Hero() {
                     Matters
                   </h1>
 
-                  <p className="mx-auto mt-6 max-w-lg text-center text-xl text-[white] sm:max-w-3xl">
-                    From custom design, stone selection, fabrication down to installation. Our mission is simple: we’re committed to exceptional quality, competitive prices, and, above all, customer satisfaction.
+                  <p className="mx-auto mt-6 max-w-lg text-center text-sm text-[white] sm:max-w-3xl">
+                    From custom design, stone selection, fabrication down to installation. <br/> Our mission is simple: we’re committed to exceptional quality, competitive prices, and, above all, customer satisfaction.
                   </p>
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                     <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
