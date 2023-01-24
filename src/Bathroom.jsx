@@ -2,19 +2,19 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-re
 
 
 
-import bathroom1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom1.webp'
-import bathroom2 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom2.webp'
-import bathroom3 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom3.webp'
-import bathroom4 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom4.webp'
-import bathroom5 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom5.webp'
-import bathroom6 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom6.webp'
-import bathroom7 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom7.webp'
-import bathroom8 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom8.webp'
-import bathroom9 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom9.webp'
-import bathroom10 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom10.webp'
-import bathroom11 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom11.webp'
-import bathroom12 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom12.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
+import bathroom1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom1.webp'
+import bathroom2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom2.webp'
+import bathroom3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom3.webp'
+import bathroom4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom4.webp'
+import bathroom5 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom5.webp'
+import bathroom6 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom6.webp'
+import bathroom7 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom7.webp'
+import bathroom8 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom8.webp'
+import bathroom9 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom9.webp'
+import bathroom10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom10.webp'
+import bathroom11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom11.webp'
+import bathroom12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom12.webp'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
 import Gallery from 'react-photo-gallery'
 
 const photos = [

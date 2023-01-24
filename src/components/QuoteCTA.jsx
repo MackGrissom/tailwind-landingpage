@@ -1,5 +1,5 @@
 import React from 'react'
-import quote from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/quotescreenshot.webp'
+import quote from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/quotescreenshot.webp'
 const QuoteCTA = () => {
   return (
   

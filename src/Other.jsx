@@ -1,10 +1,10 @@
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
 
-import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other1.webp'
-import other2 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other2.webp'
-import other3 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other3.webp'
-import other4 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other4.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
+import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other1.webp'
+import other2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other2.webp'
+import other3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other3.webp'
+import other4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other4.webp'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
 import Gallery from 'react-photo-gallery'
 
 const photos = [

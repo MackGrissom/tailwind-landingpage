@@ -1,7 +1,7 @@
 import React from 'react'
-import kitchen1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/kitchen/kitchen1.webp'
-import bathroom1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/bathroom/bathroom1.webp'
-import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/other/other4.webp'
+import kitchen1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen1.webp'
+import bathroom1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom1.webp'
+import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other4.webp'
 
 const ProjectCard = () => {
   return (

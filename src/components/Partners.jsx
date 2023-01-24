@@ -1,11 +1,11 @@
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
-import partner1 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner1.webp'
-import partner2 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner2..webp'
-import partner3 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner3.webp'
-import partner4 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner4.webp'
-import partner5 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner5.webp'
-import partner6 from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/partners/partner6.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
+import partner1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner1.webp'
+import partner2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner2..webp'
+import partner3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner3.webp'
+import partner4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner4.webp'
+import partner5 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner5.webp'
+import partner6 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner6.webp'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
 
 
 const partners = [

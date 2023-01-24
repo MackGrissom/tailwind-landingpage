@@ -1,5 +1,5 @@
 
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
 export default function About() {
   return (
     <div className="overflow-hidden bg-[#161719] py-16">

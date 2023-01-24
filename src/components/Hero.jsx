@@ -1,6 +1,6 @@
-import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/Untitled design.png'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/logo.png'
-import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/DesignToolCTA.jsx'
+import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/Untitled design.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/src/DesignToolCTA.jsx'
 import About from './About'
 
 import QuoteCTA from './QuoteCTA'
@@ -75,12 +75,10 @@ export default function Hero() {
                 </div>
               </div>
             </div>
+            <ProjectCard />
             <Member />
             <WhyUs />
-       
-            <ProjectCard />
           <QuoteCTA />
-          
           <CallToAction />
           
           </div>

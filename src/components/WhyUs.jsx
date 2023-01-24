@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v3.0+ */
-import whyus from "/home/mackgrissom/code/MackGrissom/tw-precision/my-react-app/src/assets/whyus.webp"
+import whyus from "/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/whyus.webp"
 
 export default function WhyUs() {
     return (
