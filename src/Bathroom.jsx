@@ -1,6 +1,3 @@
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from "pure-react-carousel";
-
-
 
 import bathroom1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom1.webp'
 import bathroom2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom2.webp'
