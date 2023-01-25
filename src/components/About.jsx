@@ -1,5 +1,5 @@
 
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
+import logo from '/src/assets/logo.webp'
 export default function About() {
   return (
     <>
