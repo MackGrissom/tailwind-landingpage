@@ -4,7 +4,7 @@ import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/o
 import other2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other2.webp'
 import other3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other3.webp'
 import other4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other4.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 import PhotoAlbum from "react-photo-album";
 
 const otherphotos = [

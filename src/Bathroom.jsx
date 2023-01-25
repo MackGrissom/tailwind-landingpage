@@ -11,7 +11,7 @@ import bathroom9 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/asset
 import bathroom10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom10.webp'
 import bathroom11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom11.webp'
 import bathroom12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom12.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 import PhotoAlbum from "react-photo-album";
 
 const photos = [

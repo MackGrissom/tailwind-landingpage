@@ -1,5 +1,5 @@
-import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/Untitled design.png'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import heroimg from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/untitleddesign.webp'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/src/DesignToolCTA.jsx'
 import About from './About'
 

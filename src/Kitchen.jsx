@@ -11,7 +11,7 @@ import Kitchen9 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets
 import Kitchen10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen10.webp'
 import Kitchen11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen11.webp'
 import Kitchen12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen12.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 import PhotoAlbum from "react-photo-album";
 // const photos = [
 //   {

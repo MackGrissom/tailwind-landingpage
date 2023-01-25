@@ -5,7 +5,7 @@ import partner3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets
 import partner4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner4.webp'
 import partner5 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner5.webp'
 import partner6 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/partner6.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
+import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 
 
 const partners = [
