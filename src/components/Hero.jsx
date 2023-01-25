@@ -1,5 +1,5 @@
-// import heroimg from '/src/assets/untitleddesign.webp'
-// import logo from '/src/assets/logo.webp'
+import heroimg from '/src/assets/untitleddesign.webp'
+import logo from '/src/assets/logo.webp'
 import CallToAction from '/src/DesignToolCTA.jsx'
 import About from './About'
 
@@ -33,7 +33,7 @@ export default function Hero() {
                 <div className="absolute inset-0">
                   <img
                     className="h-full w-full object-cover opacity-80"
-                    src='/src/assets/untitleddesign.webp'
+                    src={heroimg}
                     alt="People working on laptops"
                   />
                   <div className="absolute inset-0 bg-[] background--custom mix-blend-multiply" />
@@ -42,7 +42,7 @@ export default function Hero() {
                   <div className='flex justify-center align-middle'>
                     <img
                       className="w-[30%]"
-                      src='/src/assets/logo.webp'
+                      src={logo}
                       alt="Your Company"
                     />
                   </div>
