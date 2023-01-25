@@ -100,6 +100,7 @@ export default function Contact() {
                   type="text"
                   name="company"
                   id="company"
+                  placeholder='N/A if not with a company'
                   autoComplete="organization"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border--[#d2b48c] focus:ring--[#d2b48c]"
                 />
@@ -134,8 +135,7 @@ export default function Contact() {
                     className="h-full rounded-md border-transparent bg-transparent py-0 pl-4 pr-8 text-gray-500 focus:border--[#d2b48c] focus:ring--[#d2b48c]"
                   >
                     <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
+                    
                   </select>
                 </div>
                 <input
