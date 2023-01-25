@@ -2,6 +2,7 @@
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 export default function About() {
   return (
+    <>
     <div className="overflow-hidden bg-[#161719] py-16">
       <div className="mx-auto max-w-7xl space-y-8 px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:max-w-none">
@@ -43,14 +44,7 @@ export default function About() {
                   Contact Us
                 </a>
               </div>
-              <div className="ml-4 rounded-md shadow">
-                <a
-                  href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-[#D2B48C]-600 hover:bg-gray-50"
-                >
-                  Learn About Our Stone
-                </a>
-              </div>
+          
             </div>
           </div>
           <div className="relative mx-auto mt-12 max-w-prose text-base lg:mt-0 lg:max-w-none">
@@ -105,5 +99,90 @@ export default function About() {
         </div>
       </div>
     </div>
+
+    <div className="overflow-hidden  py-16 px-6 lg:px-8 xl:py-36">
+      <div className="mx-auto max-w-max lg:max-w-7xl">
+        <div className="relative z-10 mb-8 md:mb-2 md:px-6">
+          <div className="max-w-prose text-base lg:max-w-none">
+      
+            <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#D2B48C] sm:text-4xl">
+             Stone Information
+            </p>
+          </div>
+        </div>
+        <div className="relative">
+          <svg
+            className="absolute top-0 right-0 -mt-20 -mr-20 hidden md:block md:[overflow-anchor:none]"
+            width={404}
+            height={384}
+            fill="none"
+            viewBox="0 0 404 384"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="95e8f2de-6d30-4b7e-8159-f791729db21b"
+                x={0}
+                y={0}
+                width={20}
+                height={20}
+                patternUnits="userSpaceOnUse"
+              >
+                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width={404} height={384} fill="url(#95e8f2de-6d30-4b7e-8159-f791729db21b)" />
+          </svg>
+          <svg
+            className="absolute bottom-0 left-0 -mb-20 -ml-20 hidden md:block md:[overflow-anchor:none]"
+            width={404}
+            height={384}
+            fill="none"
+            viewBox="0 0 404 384"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="7a00fe67-0343-4a3c-8e81-c145097a3ce0"
+                x={0}
+                y={0}
+                width={20}
+                height={20}
+                patternUnits="userSpaceOnUse"
+              >
+                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width={404} height={384} fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
+          </svg>
+          <div className="relative bg-[#d2b48c]  md:p-6">
+            <div className="lg:grid lg:grid-cols-1 lg:gap-6">
+              <div className="prose prose-lg prose-indigo text-white lg:max-w-none">
+                <p>
+Precision Stoneworks stocks and offers a variety of different countertop materials. These include traditional & non-traditional granites, various marble, quartzite, soapstone, limestones and onyx.
+                </p>
+                <p>
+                While Precision Stoneworks does not work in solid surface products like Corian® or cultured marble, we offer a number of engineered quartz surfaces like Cosentino – Silestone®, LG Viatera® DuPont™ Zodiaq®, Caesarstone® HanStone™, Cambria®, in addition to non-branded lines like MSI Q-quartz, Stone Showcase Element and others. If you’re looking for the beauty of stone with the added peace of mind of an engineered surface, Precision Stoneworks can provide many options to meet your needs..
+                </p>
+              
+                <p>
+                If you can’t find the information you’re looking for here, please contact us with your inquiry, and we’ll get back to you shortly with the information you need.
+                </p>
+              </div>
+
+            </div>
+            <div className="mt-8 inline-flex rounded-md shadow">
+              <a
+                href="/contact"
+                className="flex items-center justify-center rounded-md border border-transparent bg-black px-5 py-3 text-base font-medium text-white hover:bg-white hover:text-black"
+              >
+                Contact Us
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </>
   )
 }
