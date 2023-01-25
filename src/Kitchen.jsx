@@ -12,8 +12,71 @@ import Kitchen10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/asset
 import Kitchen11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen11.webp'
 import Kitchen12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen12.webp'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
-import Gallery from 'react-photo-gallery'
-const photos = [
+import PhotoAlbum from "react-photo-album";
+// const photos = [
+//   {
+//     src: Kitchen1,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen2,
+//     width: 1,
+//     height: 1
+//   },
+//   {
+//     src: Kitchen3,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen4,
+//     width: 1,
+//     height: 1
+//   },
+//   {
+//     src: Kitchen5,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen6,
+//     width: 1,
+//     height: 1
+//   },
+//   {
+//     src: Kitchen7,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen8,
+//     width: 1,
+//     height: 1
+//   },
+//   {
+//     src: Kitchen9,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen10,
+//     width: 1,
+//     height: 1
+//   },
+//   {
+//     src: Kitchen11,
+//     width: 4,
+//     height: 3
+//   },
+//   {
+//     src: Kitchen12,
+//     width: 1,
+//     height: 1
+//   }
+// ];
+// ];
+const kitchenphotos = [
   {
     src: Kitchen1,
     width: 4,
@@ -75,7 +138,6 @@ const photos = [
     height: 1
   }
 ];
-
 const Kitchen = () => {
   return (
     <>
@@ -89,7 +151,10 @@ const Kitchen = () => {
                     />
                   </div>
         {' '}
-       Kitchens 
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl pt-10">
+        {' '}
+        Kitchens
+      </h1>
       </h1>
 
       <div className="flex justify-between p-5">
@@ -141,20 +206,14 @@ const Kitchen = () => {
         
       </div>
       <div className="flex justify-center align-middle pt-0 mt-0">
-      <p className='text-white w-[100%]'>Whether your tastes are traditional, farm chic, modern or industrial let Precision Stoneworks work with you to find the granite, marble, quartzite, quartz or soapstone to help define the space.  Our countertop specialists can help answer all your questions with regards to stone benefits & features, surface treatments, edge options to help put your personal touch on your new countertops. </p>
+      <p className='text-white w-[100%] mb-10'>Whether your tastes are traditional, farm chic, modern or industrial let Precision Stoneworks work with you to find the granite, marble, quartzite, quartz or soapstone to help define the space.  Our countertop specialists can help answer all your questions with regards to stone benefits & features, surface treatments, edge options to help put your personal touch on your new countertops. </p>
       </div>
     </div>
 
-    <div className="flex flex-wrap justify-evenly w-[100vw] h-[100]" >
-      {/*           Carousel1 Kitchens           1 */}
-      <div className="flex align-middle justify-center mb-20">
-      </div>
-     
-    </div>
+    <PhotoAlbum layout="rows" photos={kitchenphotos} />
 
-   
 
-<Gallery photos={photos} />;
+  
 
     </>
   )

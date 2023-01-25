@@ -12,7 +12,7 @@ import bathroom10 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/asse
 import bathroom11 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom11.webp'
 import bathroom12 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/bathroom/bathroom12.webp'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.png'
-// import Gallery from 'react-photo-gallery'
+import PhotoAlbum from "react-photo-album";
 
 const photos = [
   {
@@ -76,7 +76,68 @@ const photos = [
     height: 1
   }
 ];
-
+const bathroomphotos = [
+  {
+    src: bathroom1,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom2,
+    width: 1,
+    height: 1
+  },
+  {
+    src: bathroom3,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom4,
+    width: 1,
+    height: 1
+  },
+  {
+    src: bathroom5,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom6,
+    width: 1,
+    height: 1
+  },
+  {
+    src: bathroom7,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom8,
+    width: 1,
+    height: 1
+  },
+  {
+    src: bathroom9,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom10,
+    width: 1,
+    height: 1
+  },
+  {
+    src: bathroom11,
+    width: 4,
+    height: 3
+  },
+  {
+    src: bathroom12,
+    width: 1,
+    height: 1
+  }
+];
 const Bathroom = () => {
   return (
     <>
@@ -88,11 +149,10 @@ const Bathroom = () => {
                       alt="Your Company"
                     />
                   </div>
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl ">
+                  <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#D2B48C] md:text-5xl lg:text-6xl pt-10">
         {' '}
         Bathrooms
-      </h1>
-  
+  </h1>
       <div className="flex justify-between p-5">
         <a
           href="https://precision_stoneworks.quotebathroomandbath.com/bathroom#/materials/countertops/countertop"
@@ -142,13 +202,12 @@ const Bathroom = () => {
         
       </div>
       <div className="flex justify-center align-middle pt-0 mt-0">
-      <p className='text-white w-[100%]'>Whether your tastes are traditional, farm chic, modern or industrial let Precision Stoneworks work with you to find the granite, marble, quartzite, quartz or soapstone to help define the space.  Our countertop specialists can help answer all your questions with regards to stone benefits & features, surface treatments, edge options to help put your personal touch on your new countertops. </p>
+      <p className='text-white w-[100%] mb-10'>Whether your tastes are traditional, farm chic, modern or industrial let Precision Stoneworks work with you to find the granite, marble, quartzite, quartz or soapstone to help define the space.  Our countertop specialists can help answer all your questions with regards to stone benefits & features, surface treatments, edge options to help put your personal touch on your new countertops. </p>
       </div>
     </div>
 
    
-    <Gallery photos={photos} />;
-
+    <PhotoAlbum layout="rows" photos={bathroomphotos} />
 
     </>
   )
