@@ -30,7 +30,7 @@ export default function Hero() {
               <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
                 <div className="absolute inset-0">
                   <img
-                    className="h-full w-full object-cover opacity-80"
+                    className="h-full w-full object-cover opacity-40"
                     src={heroimg}
                     alt="People working on laptops"
                   />
@@ -51,8 +51,10 @@ export default function Hero() {
                   </h1>
 
                   <p className="mx-auto mt-6 max-w-lg text-center text-sm text-[white] sm:max-w-3xl">
-                    From custom design, stone selection, fabrication down to installation. <br/> Our mission is simple: we’re committed to exceptional quality, competitive prices, and, above all, customer satisfaction.
+                    From custom design, stone selection, fabrication down to installation.
                   </p>
+
+                  <p className="mx-auto mt-2 max-w-lg text-center text-sm text-[#d2b48c] sm:max-w-3xl drop-shadow-lg">Exceptional quality || Competitive Prices || Customer Satisfaction. </p>
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                     <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
                       <a
