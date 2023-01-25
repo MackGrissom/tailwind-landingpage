@@ -1,5 +1,5 @@
 // import heroimg from '/src/assets/untitleddesign.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
+// import logo from '/src/assets/logo.webp'
 import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/src/DesignToolCTA.jsx'
 import About from './About'
 
@@ -42,7 +42,7 @@ export default function Hero() {
                   <div className='flex justify-center align-middle'>
                     <img
                       className="w-[30%]"
-                      src={logo}
+                      src='/src/assets/logo.webp'
                       alt="Your Company"
                     />
                   </div>
