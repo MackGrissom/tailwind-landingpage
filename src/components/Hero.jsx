@@ -10,9 +10,7 @@ import WhyUs from './WhyUs'
 import ProjectCard from './ProjectCard'
 import Member from './Member'
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+
 
 
 
