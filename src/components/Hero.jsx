@@ -1,4 +1,4 @@
-import heroimg from '/src/assets/untitleddesign.webp'
+// import heroimg from '/src/assets/untitleddesign.webp'
 import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
 import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/src/DesignToolCTA.jsx'
 import About from './About'
@@ -33,7 +33,7 @@ export default function Hero() {
                 <div className="absolute inset-0">
                   <img
                     className="h-full w-full object-cover opacity-80"
-                    src={heroimg}
+                    src='/src/assets/untitleddesign.webp'
                     alt="People working on laptops"
                   />
                   <div className="absolute inset-0 bg-[] background--custom mix-blend-multiply" />
