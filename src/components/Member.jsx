@@ -1,7 +1,7 @@
 import React from 'react'
-import p1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/1.webp'
-import p2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/2.webp'
-import p3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/partners/3.webp'
+import p1 from '/src/assets/partners/1.webp'
+import p2 from '/src/assets/partners/2.webp'
+import p3 from '/src/assets/partners/3.webp'
 
 const Member = () => {
   return (

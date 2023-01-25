@@ -1,5 +1,5 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
-import designTool from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/DesignTool.png'
+import designTool from '/src/assets/DesignTool.png'
 export default function CallToAction() {
   return (
     <div className="relative bg-[161719]  mb-40 mt-40">

@@ -1,10 +1,10 @@
 
 
-import other1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other1.webp'
-import other2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other2.webp'
-import other3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other3.webp'
-import other4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/other/other4.webp'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
+import other1 from '/src/assets/other/other1.webp'
+import other2 from '/src/assets/other/other2.webp'
+import other3 from '/src/assets/other/other3.webp'
+import other4 from '/src/assets/other/other4.webp'
+import logo from '/src/assets/logo.webp'
 import PhotoAlbum from "react-photo-album";
 
 const otherphotos = [

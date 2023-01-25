@@ -2,7 +2,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
-import logo from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/logo.webp'
+import logo from '/src/assets/logo.webp'
 
 
 import { ChevronDownIcon } from '@heroicons/react/20/solid'

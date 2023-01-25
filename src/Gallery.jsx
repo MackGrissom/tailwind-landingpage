@@ -1,6 +1,6 @@
 import PhotoAlbum from "react-photo-album";
 
-import {photos, kitchenphotos, bathroomphotos, otherphotos} from "/home/mackgrissom/code/MackGrissom/tw-precision/src/components/Photos.jsx"
+import {photos, kitchenphotos, bathroomphotos, otherphotos} from "/src/components/Photos.jsx"
 
 
 const kitchenGallery = <PhotoAlbum layout="rows" photos={kitchenphotos} />; 

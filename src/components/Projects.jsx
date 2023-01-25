@@ -1,4 +1,4 @@
-import Kitchen1 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen1.webp'
+import Kitchen1 from '/src/assets/kitchen/kitchen1.webp'
 import Kitchen2 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen2.webp'
 import Kitchen3 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen3.webp'
 import Kitchen4 from '/home/mackgrissom/code/MackGrissom/tw-precision/src/assets/kitchen/kitchen4.webp'
