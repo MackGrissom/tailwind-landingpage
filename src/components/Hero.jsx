@@ -1,6 +1,6 @@
 // import heroimg from '/src/assets/untitleddesign.webp'
 // import logo from '/src/assets/logo.webp'
-import CallToAction from '/home/mackgrissom/code/MackGrissom/tw-precision/src/DesignToolCTA.jsx'
+import CallToAction from '/src/DesignToolCTA.jsx'
 import About from './About'
 
 import QuoteCTA from './QuoteCTA'
