@@ -58,7 +58,7 @@ export default function Hero() {
                   <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                     <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
                       <a
-                        href="#"
+                        href="https://precision_stoneworks.quotekitchenandbath.com/kitchen#/materials/countertops/countertop"
                         className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-black font-medium shadow-sm hover:bg-[#d2b48c] hover:text-white sm:px-8"
                       >
                         Instant Quote

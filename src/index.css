@@ -4,13 +4,20 @@
 /* gold = #D2B48C
 black - #161719 */
 
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+
 
 
  *{
-    font-family: 'Aboreto', cursive;
     
-font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
  }
+
+ h1 {
+    font-family: 'Cinzel', serif;
+ }
+
+ 
 #root {
     background-color: #161719;
 }

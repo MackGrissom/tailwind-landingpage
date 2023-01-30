@@ -13,7 +13,7 @@ const ContactCard = () => {
                 <dl className="mt-2 text-base text-[white]">
                   <div>
                     <dt className="sr-only">Email</dt>
-                    <dd> <a href='mailto:contact@precisionstoneworks.com'>contact@precisionstoneworks.com </a></dd>
+                    <dd> <a href='mailto:contact@precisionstoneworks.com' className='hover:text-blue-500'>contact@precisionstoneworks.com </a></dd>
                   </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
@@ -26,13 +26,10 @@ const ContactCard = () => {
                 <dl className="mt-2 text-base text-white">
                   <div>
                     <dt className="sr-only">address</dt>
-                    <dd> <a href='https://www.google.com/maps/dir//precision+stoneworks/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88f59253aa15547f:0x6c9195aeb7543d34?sa=X&ved=2ahUKEwi32anhuN78AhWgRDABHW30CuIQ9Rd6BAhnEAU'>1090 Parkway Industrial Park Dr.
+                    <dd> <a href='https://www.google.com/maps/dir//precision+stoneworks/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88f59253aa15547f:0x6c9195aeb7543d34?sa=X&ved=2ahUKEwi32anhuN78AhWgRDABHW30CuIQ9Rd6BAhnEAU' className='hover:text-blue-500'>1090 Parkway Industrial Park Dr.
 Buford, GA 30518 </a></dd>
                   </div>
-                  <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 123-4567</dd>
-                  </div>
+                 
                 </dl>
               </div>
               <div>
@@ -57,7 +54,7 @@ Friday 7:00 AM to 3:30 PM <br/>
       </div>
     </div>
     <div className="flex align-middle justify-center pb-10">
-    <strong className='text-[#d2b48c] align-middle text-center text-xs'>*Please note: Visits to our showroom and granite fabrication shop are by appointment only.</strong>
+    <strong className='text-[#d2b48c] align-middle text-center text-[10px]'>Please note: Visits to our showroom and granite fabrication shop are by appointment only.</strong>
     </div>
           </div>
   )

@@ -197,9 +197,9 @@ const Projects = () => {
         <div className="text-center ">
 
           {/* <h2 className="text-lg font-semibold text-[white]">At Precision Stoneworks, Quality Matters</h2> */}
-          <p className="mt-1 text-4xl font-bold tracking-tight text-[#D2B48C] sm:text-5xl lg:text-6xl">
+          <h1 className="mt-1 text-4xl font-bold tracking-tight text-[#D2B48C] sm:text-5xl lg:text-6xl">
             Our Portfolio
-          </p>
+          </h1>
         </div>
         {/* Kitchen Photos */}
       

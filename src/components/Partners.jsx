@@ -94,7 +94,7 @@ Please keep in mind that wholesalers aren’t in a position to estimate installe
         <a href={partner.site}>
         <li
           key={partner.address}
-          className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-[#d2b48cb0] text-center shadow"
+          className="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-[white]  text-center shadow"
         >
           <div className="flex flex-1 flex-col p-8">
             <img className="mx-auto h-32 w-32 flex-shrink-0 rounded" src={partner.imageUrl} alt="" />
